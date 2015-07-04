@@ -1,0 +1,6 @@
+Domain 3D Title Interior of Paraboloid
+N=20
+M=30
+Parametric v*cos(u), v*sin(u), v*v  in  (0,2*PI) & (0,1) decomposition M,N  part   1
+#Parametric v*cos(u), v*sin(u), 1  in  (0,2*PI) & (1,0)   ratio  1,1  decomposition M,N  part   2
+ 

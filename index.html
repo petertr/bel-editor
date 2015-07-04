@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>BEL editor</title>
+ 
+  <script type="text/javascript" src="bower_components/file-saver.js/FileSaver.js"></script>
+  <script type="text/javascript" src="bower_components/codemirror/lib/codemirror.js"></script>
+  <script type="text/javascript" src="bower_components/codemirror/addon/mode/simple.js"></script>
+	<script type="text/javascript" src="static/js/tr3D.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="bower_components/codemirror/lib/codemirror.css">
+  <link rel="stylesheet" href="bower_components/codemirror/theme/ambiance.css">
+  <link rel="stylesheet" type="text/css" href="static/css/app.css">
+
+	<meta charset='utf-8'>
+
+</head>
+<body>
+
+<section>
+  <div id="editor">
+
+
+    <nav>
+      <ul>
+        <li><a href="#">File</a>
+          <ul>
+            <li><a href="#">New</a></li>
+            <li><a href="#loadModal">Open</a></li>
+            <li><a href="">Save</a>
+              <ul>
+                <li><a href="" onclick="expBND();">to *.BND</a></li>
+                <li><a href="" onclick="expSTL();">to *.STL</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Edit</a>
+          <ul>
+            <li><a href="#">Undo</a></li>
+            <li><a href="#">Redo</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    
+    
+    <output id="list"></output>
+
+    <div id="loadModal" class="modalDialog">
+      <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <legend for="file">Open file</legend> <br>
+         <input type="file" id="files" name="files[]" />
+      </div>
+    </div>
+
+
+    <div id="editArea">
+  
+
+    </div>
+    <div class="buttons">  
+
+      <button id="updateView" onclick="updateV();">Refresh preview</button>
+
+
+    </div>
+  </div>
+  <div id="viewport"></div>
+  <div class="clb"></div>
+</section>
+<script type="text/javascript" src="bower_components/three.js/three.js"></script>
+<script type="text/javascript" src="static/js/OrbitControls.js"></script>
+<script type="text/javascript" src="static/js/Detector.js"></script>
+
+<script type="text/javascript" src="static/js/app.js"></script>
+<script type="text/javascript" src="static/js/scene.js"></script> 
+</body>
+</html>

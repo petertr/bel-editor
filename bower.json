@@ -1,0 +1,23 @@
+{
+  "name": "bel",
+  "version": "0.0.1",
+  "authors": [
+    "Peter T. <info@petert.info>"
+  ],
+  "description": "diploma project",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "petert.info",
+  "private": true,
+  "dependencies": {
+    "three.js": "latest",
+    "file-saver.js": "latest"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

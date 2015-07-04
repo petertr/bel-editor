@@ -1,0 +1,6 @@
+Domain 3D Symmetry x=0 y=0 z=0 Title Cube with 3 symmetry planes
+
+N=10
+Explicit z=1 in (1,0) & (0,1) ratio 1,1  decomposition N,N  part   1
+Explicit y=1 in (0,1) & (0,1) ratio 1,1  decomposition N,N  part   2
+Explicit x=1 in (1,0) & (0,1) ratio 1,1  decomposition N,N  part  4

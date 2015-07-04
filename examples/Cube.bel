@@ -1,0 +1,10 @@
+Domain 3D Title Cube
+N=10
+
+Explicit z=1 in (0,1) & (0,1)   ratio 1,1   decomposition N,N  part   1
+Explicit y=1 in (1,0) & (1,0)   ratio 1,1   decomposition N,N  part   2
+Explicit x=1 in (1,0) & (0,1)   ratio 1,1   decomposition N,N  part   3
+Explicit y=0 in (0,1) & (1,0)   ratio 1,1   decomposition N,N  part   4
+Explicit x=1 in (0,1) & (0,1)   ratio 1,1   decomposition N,N  part   5
+Explicit z=0 in (1,0) & (1,0)   ratio 1,1   decomposition N,N  part   2
+

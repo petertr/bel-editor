@@ -1,0 +1,6 @@
+Domain 3D Title Interior of Cylinder
+N=10
+M=30
+Parametric cos(u), sin(u), v  in  (0,2*PI)& (0,1) decomposition M,N  part   2
+Parametric v*cos(u), v*sin(u), 0  in  (0,2*PI)& (0,1) ratio 1,1 decomposition M,N  part   1
+Parametric v*cos(u), v*sin(u), 1  in  (0,2*PI)& (0,1) ratio 1,1 decomposition M,N  part   2

@@ -1,0 +1,8 @@
+Domain 3D Title Interior of Ellipsoid
+N=30
+M=60
+a=1
+b=2
+c=0.5
+Parametric a*sin(v)*cos(u), b*sin(v)*sin(u), c*cos(v)  in  (0,2*PI) & (0,PI) decomposition M,N  part   1
+ 
