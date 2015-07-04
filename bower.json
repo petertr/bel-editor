@@ -11,7 +11,8 @@
   "private": true,
   "dependencies": {
     "three.js": "latest",
-    "file-saver.js": "latest"
+    "file-saver.js": "latest",
+    "codemirror": "latest"
   },
   "ignore": [
     "**/.*",
